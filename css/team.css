@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: black;
 }
 
 .navbar {
@@ -12,4 +13,8 @@ body {
 
 .card {
   margin-bottom: 30px;
+}
+
+h1 {
+  color: white;
 }
