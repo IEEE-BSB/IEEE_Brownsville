@@ -18,3 +18,8 @@ body {
 h1 {
   color: white;
 }
+
+.card-img-top {
+  height: 300px; /* Adjust the height as per your design requirements */
+  object-fit: cover;
+}

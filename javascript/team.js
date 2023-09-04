@@ -6,8 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
     { name: 'Daniela Maldonado', role: 'Networking Director', img: '../images/image_four.jpg' },
     { name: 'Carlos Castillo', role: 'Treasurer', img: '../images/OfficerPhotoCarlos.jpg' },
     { name: 'Erick Balboa', role: 'Recruiter', img: '../images/OfficerPhotoErick.jpg' },
-    { name: 'Hector Delgado', role: 'Social Media Manager', img: '../images/image_seven.jpg' },
-    { name: 'Franky Nava', role: 'Webmaster', img: '../images/WebmasterFranky.jpeg' },
     // Add more team members as needed
   ];
 
@@ -18,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     card.className = 'col-sm-12 col-md-6 col-lg-4';
     card.innerHTML = `
       <div class="card">
+      <a href="officer.html?name=${encodeURIComponent(member.name)}">
         <img class="card-img-top" src="${member.img}" alt="${member.name}">
         <div class="card-body">
           <h5 class="card-title">${member.name}</h5>
