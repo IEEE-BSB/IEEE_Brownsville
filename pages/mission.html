@@ -4,42 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="../css/mission.css" rel="stylesheet">
-
-    <title>Our Mission</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">IEEE Brownsville</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="../index.html"><span class="nav-links">Home</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="../pages/team.html"><span class="nav-links">Officers</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="../pages/mission.html"><span class="nav-links">Our Mission</span></a>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/calender.html"><span class="nav-links">Calendar</span></a>
-              </li>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="../pages/resources.html"><span class="nav-links">Resources</span></a>
-              </li>
-          </ul>
-      </div>
-    </nav>
-
+    <body>
     <div class="wrapper">
         <header class="header"><h1>Our Mission as your Leaders</h1></header>
         <figure class="featured-image-1">
@@ -75,14 +45,18 @@
           <p>We hope we can make your journey of academic and professional development as enjoyable as possible!</p>
         </article>
       </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
-    <!-- Custom JavaScript -->
-    
+    <!-- Include your navbar.js file -->
+    <script src="../javascript/index.js"></script>
+<!-- Call the generateNavbar function and insert the result into the navbar-container div -->
+<script>
+  document.getElementById('navbar-container').innerHTML = generateNavbar();
+</script>
   </body>
 </html>
+
+

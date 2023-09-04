@@ -4,19 +4,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="../css/projects.css" rel="stylesheet">
-
-    <title>IEEE Brownsville</title>
   </head>
   <body id="body">
 
+    <div id="navbar-container"></div>
+    
     <div class="shadow-title parallax-top-shadow">IEEE</div>
     <div class="section-parallax parallax-00" style="background-image: url('http://www.ivang-design.com/svg-load/parallax/parallax-0.png');"></div>
     <div class="section-parallax parallax-01" style="background-image: url('http://www.ivang-design.com/svg-load/parallax/parallax-01.png');"></div>
@@ -99,19 +96,20 @@
         </div>	
       </div>			
     </div>
-
+    <!-- Include your navbar.js file -->
+    <script src="../javascript/index.js"></script>
+<!-- Call the generateNavbar function and insert the result into the navbar-container div -->
+<script>
+  document.getElementById('navbar-container').innerHTML = generateNavbar();
+</script>
     <!-- Scroll back to top
     ================================================== -->
-
     <div class="scroll-to-top hover-target"></div>
-
     <!-- Page cursor
     ================================================== -->
-
     <div class='cursor' id="cursor"></div>
     <div class='cursor2' id="cursor2"></div>
     <div class='cursor3' id="cursor3"></div>
-
     <!-- Link to page
     ================================================== -->
     <script src="../javascript/projects.js"></script>
