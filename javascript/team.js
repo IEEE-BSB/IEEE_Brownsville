@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { name: 'Daniela Maldonado', role: 'Networking Director', img: '../images/image_four.jpg' },
     { name: 'Carlos Castillo', role: 'Treasurer', img: '../images/OfficerPhotoCarlos.jpg' },
     { name: 'Erick Balboa', role: 'Recruiter', img: '../images/OfficerPhotoErick.jpg' },
+    { name: 'Franky Nava', role: 'Web Master', img: '../images/WebMasterFranky.jpeg' },
     // Add more team members as needed
   ];
 

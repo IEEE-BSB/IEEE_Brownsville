@@ -59,13 +59,13 @@ document.addEventListener('DOMContentLoaded', function() {
           },
 
           { 
-            name: 'Erick Balboa', 
-            role: 'Recruiter', 
-            img: '../images/OfficerPhotoErick.jpg',
-            classification: 'Junior',
-            major: 'Electrical Engineering',
-            linkedin: 'https://www.linkedin.com/in/erik-balboa03/',
-            missionStatement: 'I am dedicated to leading the organization towards success and fostering a spirit of collaboration among members.'
+            name: 'Franky Nava', 
+            role: 'Web Master', 
+            img: '../images/WebMasterFranky.jpeg',
+            classification: 'Senior',
+            major: 'Computer Science',
+            linkedin: 'https://www.linkedin.com/in/frankynava',
+            missionStatement: 'I am dedicated to getting this money and these bitches lil nigga'
           },
       ];
       
